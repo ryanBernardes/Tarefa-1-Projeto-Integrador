@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+}
+
+/* Container principal */
+.container-centro {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Lado esquerdo */
+#esquerda {
+    flex: 1;
+}
+
+#esquerda aside {
+    padding: 20px;
+}
+
+/* Conteúdo principal */
+main {
+    flex: 2;
+}
+
+.container-meio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Seções do conteúdo */
+section {
+    padding: 20px;
+}
+
+/* Lado direito */
+#direita {
+    flex: 1;
+}
+
+#direita aside {
+    padding: 20px;
+}
+
+/* Espaçamento dos textos */
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+}
