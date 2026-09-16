@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+li a {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #222222;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #cccccc;
+}
