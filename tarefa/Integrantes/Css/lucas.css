@@ -3,25 +3,32 @@
     margin: 0;
     padding: 0;
 }
+html {
+    height: 100%;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #2f5285;
     background-color: #f7f7f7;
+        display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
     background-color: #2f5285;
     color: #fff;
-    padding: 30px 20px;
-    text-align: center;
+    padding: 50px 30px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
-    gap: 24px;
+    text-align: center;
+    gap: 30px;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .foto {
@@ -36,15 +43,15 @@ header h1 {
     border: 3px solid #fff;
     background-color: gray;
 }
-
+/* Conteudo geral */
 .conteudo {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     max-width: 1100px;
     margin: 20px auto;
-    padding: 0 20px;
     align-items: flex-start;
+    flex-grow: 1;
 }
 
 .conteudo > * {
@@ -54,11 +61,12 @@ header h1 {
 
 .conteudo > *:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    border-color: #4a6357;
+    border-color: #2f5285;
 }
 
+/* Aside esquerdo */
 .informacoes-pessoais {
-    flex: 1 1 200px;
+    flex: 3 1 200px;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -74,6 +82,7 @@ header h1 {
     margin-bottom: 6px;
 }
 
+/* Main -  Informações principais */
 main {
     flex: 3 1 400px;
     background-color: #fff;
@@ -94,6 +103,7 @@ main h3 {
     margin-top: 10px;
 }
 
+/* Aside direito */
 .habilidades {
     flex: 1 1 200px;
     background-color: #fff;
@@ -119,17 +129,12 @@ main h3 {
     padding: 3px 0;
 }
 
+/* Footer */
 footer {
     background-color: #2f5285;
     padding: 15px;
     text-align: center;
 }
-
 footer a {
     color: #fff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
