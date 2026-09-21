@@ -1,5 +1,6 @@
 # Tarefa-1-Projeto-Integrador
 Atividade proposta pelo professor Rodrigo Faustino
+
 A1. O que é o framework e qual abordagem ele segue? 
 O Bootstrap é um framework para desenvolvimento web. Nele podemos encontrar componentes e classes prontas para facilitar a criação e estilização das páginas.
 
